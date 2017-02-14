@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM pypy:2-5-slim
 
 MAINTAINER Richard Mathie "Richard.Mathie@amey.co.uk"
 
