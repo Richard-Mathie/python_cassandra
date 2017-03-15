@@ -5,7 +5,7 @@ MAINTAINER Richard Mathie "Richard.Mathie@amey.co.uk"
 RUN apt-get update \
     && apt-get install -y gcc python-dev \
     && apt-get install -y libev4 libev-dev \
-    && pip install --no-cache-dir six futures lz4=0.8.2 twisted gevent eventlet cython pytz scales \
+    && pip install --no-cache-dir six futures lz4==0.8.2 twisted gevent eventlet cython pytz scales \
     && pip install --no-cache-dir cassandra-driver \
     && apt-get -y purge gcc python python-dev \
     && apt-get autoremove -y \
